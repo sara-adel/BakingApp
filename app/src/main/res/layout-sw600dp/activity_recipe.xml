@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorActivity"
+    tools:context="com.sara.bakingapp.activity.RecipeActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/two_pane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_toolbar">
+
+    <ProgressBar
+        android:id="@+id/main_progressBar"
+        android:layout_width="@dimen/layout"
+        android:layout_height="@dimen/layout"
+        android:layout_centerInParent="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recipes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/layout_margin" />
+
+    </RelativeLayout>
+</RelativeLayout>

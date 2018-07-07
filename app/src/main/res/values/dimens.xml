@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+
+    <!--recip item-->
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="layout_margin">5dp</dimen>
+    <dimen name="recipe_image_height">200dp</dimen>
+    <dimen name="recipe_title_height">50dp</dimen>
+    <dimen name="recipe_title_margin">10dp</dimen>
+    <dimen name="recipe_padding_image">16dp</dimen>
+    <dimen name="recipe_elevation_image">1dp</dimen>
+
+    <!--activity recipe -->
+    <dimen name="layout">60dp</dimen>
+    <dimen name="recipe_detail_card">250dp</dimen>
+
+    <!--fragment ingredients-->
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="ingredients_margin">10dp</dimen>
+    <dimen name="ingredients_margin_start">20dp</dimen>
+
+    <!--fragment step dtail-->
+    <dimen name="exoPalyer_height">250dp</dimen>
+    <dimen name="exoPalyer_margin">5dp</dimen>
+    <dimen name="margin_">10dp</dimen>
+    <dimen name="text_margin_bottom">20dp</dimen>
+    <dimen name="text_margin_top">30dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+
+    <!--widget grid view -->
+    <dimen name="column_width">25dp</dimen>
+    <dimen name="widget_margin">2dp</dimen>
+    <dimen name="spacing">5dp</dimen>
+
+    <!--widget grid view item-->
+    <dimen name="widget_item">3dp</dimen>
+
+</resources>
